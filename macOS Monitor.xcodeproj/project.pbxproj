@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6A5339521232BD500D78658 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A5339421232BD500D78658 /* AppDelegate.swift */; };
+		E6A5339721232BD500D78658 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A5339621232BD500D78658 /* ViewController.swift */; };
+		E6A5339921232BD600D78658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6A5339821232BD600D78658 /* Assets.xcassets */; };
+		E6A5339C21232BD600D78658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6A5339A21232BD600D78658 /* Main.storyboard */; };
+		E6A533A821232BD600D78658 /* macOS_MonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A533A721232BD600D78658 /* macOS_MonitorTests.swift */; };
+		E6A533B321232BD600D78658 /* macOS_MonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A533B221232BD600D78658 /* macOS_MonitorUITests.swift */; };
+		E6A533C2212330F800D78658 /* smc.c in Sources */ = {isa = PBXBuildFile; fileRef = E6A533C1212330F800D78658 /* smc.c */; };
+		E6A533C42123318900D78658 /* SMCObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A533C32123318900D78658 /* SMCObjC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6A533A421232BD600D78658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6A5338921232BD500D78658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6A5339021232BD500D78658;
+			remoteInfo = "macOS Monitor";
+		};
+		E6A533AF21232BD600D78658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6A5338921232BD500D78658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6A5339021232BD500D78658;
+			remoteInfo = "macOS Monitor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6A5339121232BD500D78658 /* macOS Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macOS Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A5339421232BD500D78658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6A5339621232BD500D78658 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6A5339821232BD600D78658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6A5339B21232BD600D78658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6A5339D21232BD600D78658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6A5339E21232BD600D78658 /* macOS_Monitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS_Monitor.entitlements; sourceTree = "<group>"; };
+		E6A533A321232BD600D78658 /* macOS MonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macOS MonitorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A533A721232BD600D78658 /* macOS_MonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS_MonitorTests.swift; sourceTree = "<group>"; };
+		E6A533A921232BD600D78658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6A533AE21232BD600D78658 /* macOS MonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macOS MonitorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A533B221232BD600D78658 /* macOS_MonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS_MonitorUITests.swift; sourceTree = "<group>"; };
+		E6A533B421232BD600D78658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6A533C0212330F800D78658 /* smc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smc.h; sourceTree = "<group>"; };
+		E6A533C1212330F800D78658 /* smc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = smc.c; sourceTree = "<group>"; };
+		E6A533C32123318900D78658 /* SMCObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMCObjC.m; sourceTree = "<group>"; };
+		E6A533C5212331CF00D78658 /* SMCObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMCObjC.h; sourceTree = "<group>"; };
+		E6A533C62123326D00D78658 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6A5338E21232BD500D78658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6A533A021232BD600D78658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6A533AB21232BD600D78658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6A5338821232BD500D78658 = {
+			isa = PBXGroup;
+			children = (
+				E6A5339321232BD500D78658 /* macOS Monitor */,
+				E6A533A621232BD600D78658 /* macOS MonitorTests */,
+				E6A533B121232BD600D78658 /* macOS MonitorUITests */,
+				E6A5339221232BD500D78658 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6A5339221232BD500D78658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6A5339121232BD500D78658 /* macOS Monitor.app */,
+				E6A533A321232BD600D78658 /* macOS MonitorTests.xctest */,
+				E6A533AE21232BD600D78658 /* macOS MonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6A5339321232BD500D78658 /* macOS Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				E6A5339421232BD500D78658 /* AppDelegate.swift */,
+				E6A5339621232BD500D78658 /* ViewController.swift */,
+				E6A5339821232BD600D78658 /* Assets.xcassets */,
+				E6A5339A21232BD600D78658 /* Main.storyboard */,
+				E6A5339D21232BD600D78658 /* Info.plist */,
+				E6A5339E21232BD600D78658 /* macOS_Monitor.entitlements */,
+				E6A533C0212330F800D78658 /* smc.h */,
+				E6A533C1212330F800D78658 /* smc.c */,
+				E6A533C32123318900D78658 /* SMCObjC.m */,
+				E6A533C5212331CF00D78658 /* SMCObjC.h */,
+				E6A533C62123326D00D78658 /* Bridging-Header.h */,
+			);
+			path = "macOS Monitor";
+			sourceTree = "<group>";
+		};
+		E6A533A621232BD600D78658 /* macOS MonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6A533A721232BD600D78658 /* macOS_MonitorTests.swift */,
+				E6A533A921232BD600D78658 /* Info.plist */,
+			);
+			path = "macOS MonitorTests";
+			sourceTree = "<group>";
+		};
+		E6A533B121232BD600D78658 /* macOS MonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6A533B221232BD600D78658 /* macOS_MonitorUITests.swift */,
+				E6A533B421232BD600D78658 /* Info.plist */,
+			);
+			path = "macOS MonitorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6A5339021232BD500D78658 /* macOS Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6A533B721232BD600D78658 /* Build configuration list for PBXNativeTarget "macOS Monitor" */;
+			buildPhases = (
+				E6A5338D21232BD500D78658 /* Sources */,
+				E6A5338E21232BD500D78658 /* Frameworks */,
+				E6A5338F21232BD500D78658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "macOS Monitor";
+			productName = "macOS Monitor";
+			productReference = E6A5339121232BD500D78658 /* macOS Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6A533A221232BD600D78658 /* macOS MonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6A533BA21232BD600D78658 /* Build configuration list for PBXNativeTarget "macOS MonitorTests" */;
+			buildPhases = (
+				E6A5339F21232BD600D78658 /* Sources */,
+				E6A533A021232BD600D78658 /* Frameworks */,
+				E6A533A121232BD600D78658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6A533A521232BD600D78658 /* PBXTargetDependency */,
+			);
+			name = "macOS MonitorTests";
+			productName = "macOS MonitorTests";
+			productReference = E6A533A321232BD600D78658 /* macOS MonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6A533AD21232BD600D78658 /* macOS MonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6A533BD21232BD600D78658 /* Build configuration list for PBXNativeTarget "macOS MonitorUITests" */;
+			buildPhases = (
+				E6A533AA21232BD600D78658 /* Sources */,
+				E6A533AB21232BD600D78658 /* Frameworks */,
+				E6A533AC21232BD600D78658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6A533B021232BD600D78658 /* PBXTargetDependency */,
+			);
+			name = "macOS MonitorUITests";
+			productName = "macOS MonitorUITests";
+			productReference = E6A533AE21232BD600D78658 /* macOS MonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6A5338921232BD500D78658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Basti SK";
+				TargetAttributes = {
+					E6A5339021232BD500D78658 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					E6A533A221232BD600D78658 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E6A5339021232BD500D78658;
+					};
+					E6A533AD21232BD600D78658 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E6A5339021232BD500D78658;
+					};
+				};
+			};
+			buildConfigurationList = E6A5338C21232BD500D78658 /* Build configuration list for PBXProject "macOS Monitor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6A5338821232BD500D78658;
+			productRefGroup = E6A5339221232BD500D78658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6A5339021232BD500D78658 /* macOS Monitor */,
+				E6A533A221232BD600D78658 /* macOS MonitorTests */,
+				E6A533AD21232BD600D78658 /* macOS MonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6A5338F21232BD500D78658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A5339921232BD600D78658 /* Assets.xcassets in Resources */,
+				E6A5339C21232BD600D78658 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6A533A121232BD600D78658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6A533AC21232BD600D78658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6A5338D21232BD500D78658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A533C2212330F800D78658 /* smc.c in Sources */,
+				E6A533C42123318900D78658 /* SMCObjC.m in Sources */,
+				E6A5339721232BD500D78658 /* ViewController.swift in Sources */,
+				E6A5339521232BD500D78658 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6A5339F21232BD600D78658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A533A821232BD600D78658 /* macOS_MonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6A533AA21232BD600D78658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A533B321232BD600D78658 /* macOS_MonitorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6A533A521232BD600D78658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6A5339021232BD500D78658 /* macOS Monitor */;
+			targetProxy = E6A533A421232BD600D78658 /* PBXContainerItemProxy */;
+		};
+		E6A533B021232BD600D78658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6A5339021232BD500D78658 /* macOS Monitor */;
+			targetProxy = E6A533AF21232BD600D78658 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6A5339A21232BD600D78658 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6A5339B21232BD600D78658 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6A533B521232BD600D78658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6A533B621232BD600D78658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E6A533B821232BD600D78658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "macOS Monitor/macOS_Monitor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "macOS Monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bastisk.macOS-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/bastisk/Documents/Development/macOS Monitor/macOS Monitor/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		E6A533B921232BD600D78658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "macOS Monitor/macOS_Monitor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "macOS Monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bastisk.macOS-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/bastisk/Documents/Development/macOS Monitor/macOS Monitor/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		E6A533BB21232BD600D78658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "macOS MonitorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bastisk.macOS-MonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macOS Monitor.app/Contents/MacOS/macOS Monitor";
+			};
+			name = Debug;
+		};
+		E6A533BC21232BD600D78658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "macOS MonitorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bastisk.macOS-MonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macOS Monitor.app/Contents/MacOS/macOS Monitor";
+			};
+			name = Release;
+		};
+		E6A533BE21232BD600D78658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "macOS MonitorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bastisk.macOS-MonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "macOS Monitor";
+			};
+			name = Debug;
+		};
+		E6A533BF21232BD600D78658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "macOS MonitorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bastisk.macOS-MonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "macOS Monitor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6A5338C21232BD500D78658 /* Build configuration list for PBXProject "macOS Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A533B521232BD600D78658 /* Debug */,
+				E6A533B621232BD600D78658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6A533B721232BD600D78658 /* Build configuration list for PBXNativeTarget "macOS Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A533B821232BD600D78658 /* Debug */,
+				E6A533B921232BD600D78658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6A533BA21232BD600D78658 /* Build configuration list for PBXNativeTarget "macOS MonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A533BB21232BD600D78658 /* Debug */,
+				E6A533BC21232BD600D78658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6A533BD21232BD600D78658 /* Build configuration list for PBXNativeTarget "macOS MonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A533BE21232BD600D78658 /* Debug */,
+				E6A533BF21232BD600D78658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6A5338921232BD500D78658 /* Project object */;
+}
